@@ -1,6 +1,6 @@
 # Update plot objects if saving
 import numpy as np
-from smart_time import smart_time
+from Plot_tools.smart_time import smart_time
 import matplotlib.pyplot as plt
 
 def update_save_2D(sim):

@@ -4,9 +4,9 @@
 #       simulation
 
 # Import the plotting tools
-from initialize_plots_animsave_1D import initialize_plots_animsave_1D
-from initialize_plots_animsave_2D import initialize_plots_animsave_2D
-from initialize_plots_hov import initialize_plots_hov
-from plot_hov import plot_hov
-from update_hov import update_hov
-from smart_time import smart_time
+from Plot_tools.initialize_plots_animsave_1D import initialize_plots_animsave_1D
+from Plot_tools.initialize_plots_animsave_2D import initialize_plots_animsave_2D
+from Plot_tools.initialize_plots_hov import initialize_plots_hov
+from Plot_tools.plot_hov import plot_hov
+from Plot_tools.update_hov import update_hov
+from Plot_tools.smart_time import smart_time

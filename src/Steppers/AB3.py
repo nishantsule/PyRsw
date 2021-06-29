@@ -1,6 +1,6 @@
 import numpy as np
-from Euler import Euler
-from AB2 import AB2
+from Steppers.Euler import Euler
+from Steppers.AB2 import AB2
 
 def AB3(sim):
     if sim.nfluxes < 2:

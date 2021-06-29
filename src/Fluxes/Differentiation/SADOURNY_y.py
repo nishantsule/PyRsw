@@ -85,7 +85,7 @@ def SADOURNY_y(sim):       # Set the differentiation operators
                 sim.avy_v = fort.avy_walls
 
             else:
-                print "y boundary conditions must be from the list: periodic, walls"
+                print ("y boundary conditions must be from the list: periodic, walls")
                 sys.exit()
 
 
@@ -109,7 +109,7 @@ def SADOURNY_y(sim):       # Set the differentiation operators
                 sim.avy_v = avy_walls
 
             else:
-                print "y boundary conditions must be from the list: periodic, walls"
+                print ("y boundary conditions must be from the list: periodic, walls")
                 sys.exit()
 
 

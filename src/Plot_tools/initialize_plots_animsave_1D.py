@@ -4,8 +4,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from update_anim_1D import update_anim_1D
-from update_save_1D import update_save_1D
+from Plot_tools.update_anim_1D import update_anim_1D
+from Plot_tools.update_save_1D import update_save_1D
 
 def initialize_plots_animsave_1D(sim):
 

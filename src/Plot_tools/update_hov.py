@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from smart_time import smart_time
+from Plot_tools.smart_time import smart_time
 
 def update_hov(sim):
 

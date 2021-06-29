@@ -1,5 +1,5 @@
 import numpy as np
-from Euler import Euler
+from Steppers.Euler import Euler
 
 def AB2(sim):
     if sim.nfluxes < 1:

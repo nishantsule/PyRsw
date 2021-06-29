@@ -80,7 +80,7 @@ def SADOURNY_x(sim):       # Set the differentiation operators
                 sim.avx_u = fort.avx_walls
 
             else:
-                print "x boundary conditions must be from the list: periodic, walls"
+                print ("x boundary conditions must be from the list: periodic, walls")
                 sys.exit()
 
             print('Using Fortran in x')
@@ -103,5 +103,5 @@ def SADOURNY_x(sim):       # Set the differentiation operators
                 sim.avx_u = avx_walls
 
             else:
-                print "x boundary conditions must be from the list: periodic, walls"
+                print ("x boundary conditions must be from the list: periodic, walls")
                 sys.exit()

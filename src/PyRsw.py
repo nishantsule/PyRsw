@@ -161,7 +161,7 @@ class Simulation:
                 print('Coriolis = f-plane')
         if self.restarting:
             print('Restarting from index {0:d}'.format(self.restart_index))
-        print ' '
+        print (' ')
         
 
         # Initialize grids and cell centres

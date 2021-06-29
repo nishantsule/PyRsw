@@ -4,5 +4,5 @@
 
 # FJP: if statement?
 # Import the flux options
-from SPECTRAL_SW import spectral_sw
-from SADOURNY_SW import sadourny_sw
+from Fluxes.SPECTRAL_SW import spectral_sw
+from Fluxes.SADOURNY_SW import sadourny_sw

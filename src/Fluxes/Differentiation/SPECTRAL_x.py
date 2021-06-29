@@ -99,7 +99,7 @@ def SPECTRAL_x(sim):       # Set the differentiation operators
             sim.ik = 1j*np.tile(kx.reshape((sim.Nkx,1)),(1,sim.Ny))
         
         else:
-            print "x boundary conditions must be from the list: periodic, walls"
+            print ("x boundary conditions must be from the list: periodic, walls")
             sys.exit()
 
         sim.ddx_u = ddx_u
